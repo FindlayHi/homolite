@@ -10,7 +10,7 @@ body {
     /* Use a sans-serif font */
     font-family: Arial, sans-serif;
     /* Use light pink as the default text color */
-    color: #FFB6C1;
+    
 }
 
 /* Add some padding around the whole page */
@@ -21,7 +21,7 @@ body {
 /* Style headings */
 h1, h2, h3 {
     /* Use light pink for heading text */
-    color: #FFB6C1;
+   
     /* Add some space below headings */
     margin-bottom: 20px;
 }
@@ -29,7 +29,7 @@ h1, h2, h3 {
 /* Style paragraphs */
 p {
     /* Use light pink for paragraph text */
-    color: #FFB6C1;
+  
     /* Add some space below paragraphs */
     margin-bottom: 20px;
 }
@@ -37,7 +37,7 @@ p {
 /* Style links */
 a {
     /* Use light pink for links */
-    color: #FFB6C1;
+    
     /* Remove the default underline */
     text-decoration: none;
 }
@@ -45,14 +45,26 @@ a {
 /* Change the link color on hover */
 a:hover {
     /* Use a darker shade of pink for hover */
-    color: #FF69B4;
+    color: #FFB6C1;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #Fff; /* light pink */
+    height: 400px; /* adjust as needed */
+}
+
+#hero img {
+    max-width: 100%; /* to ensure the image doesn't overflow the div */
+    height: auto; /* maintain aspect ratio */
 }
 
 
 
 footer {
     background-color: #FFB6C1; /* light pink */
-    color: #ADD8E6; /* light blue */
     padding: 20px;
     position: fixed;
     bottom: 0;
