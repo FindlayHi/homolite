@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul {
 
 body {
     /* Use light blue as the background color */
-    background-color: #ADD8E6;
+    background-color: #8D918D;
     /* Use a sans-serif font */
     font-family: Arial, sans-serif;
     /* Use light pink as the default text color */
@@ -45,7 +45,7 @@ a {
 /* Change the link color on hover */
 a:hover {
     /* Use a darker shade of pink for hover */
-    color: #FFB6C1;
+    color: #FF00FF;
 }
 
 #hero {
@@ -54,6 +54,7 @@ a:hover {
     align-items: center;
     background-color: #Fff; /* light pink */
     height: 400px; /* adjust as needed */
+    width:auto;
 }
 
 #hero img {
@@ -61,10 +62,8 @@ a:hover {
     height: auto; /* maintain aspect ratio */
 }
 
-
-
 footer {
-    background-color: #FFB6C1; /* light pink */
+    background-color: #FF00FF; /* light pink */
     padding: 20px;
     position: fixed;
     bottom: 0;
