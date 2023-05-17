@@ -52,7 +52,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #Fff; /* light pink */
+    background-color: #Fff; 
     height: 400px; /* adjust as needed */
     width:auto;
 }
@@ -63,14 +63,48 @@ a:hover {
 }
 
 footer {
-    background-color: #FF00FF; /* light pink */
+    background-color: #FF00FF; 
     padding: 20px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     text-align: center;
 }
 
+.main-content {
+    padding: 30px;
+    background-color: #8D918D; 
+    color: #FF00FF; 
+}
+
+.main-content h2, .main-content h3 {
+    margin-bottom: 15px;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.hosts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.host {
+    width: 45%; /* ensures there's some space between the hosts */
+}
+
+@media screen and (max-width: 768px) {
+    /* On smaller screens, the host bios stack vertically */
+    .hosts {
+        flex-direction: column;
+    }
+
+    .host {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
 
 
 
