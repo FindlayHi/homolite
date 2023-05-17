@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Use light blue as the background color */
+    background-color: #ADD8E6;
+    /* Use a sans-serif font */
+    font-family: Arial, sans-serif;
+    /* Use light pink as the default text color */
+    color: #FFB6C1;
+}
+
+/* Add some padding around the whole page */
+.container {
+    padding: 30px;
+}
+
+/* Style headings */
+h1, h2, h3 {
+    /* Use light pink for heading text */
+    color: #FFB6C1;
+    /* Add some space below headings */
+    margin-bottom: 20px;
+}
+
+/* Style paragraphs */
+p {
+    /* Use light pink for paragraph text */
+    color: #FFB6C1;
+    /* Add some space below paragraphs */
+    margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+    /* Use light pink for links */
+    color: #FFB6C1;
+    /* Remove the default underline */
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+a:hover {
+    /* Use a darker shade of pink for hover */
+    color: #FF69B4;
+}
+
+
+
+footer {
+    background-color: #FFB6C1; /* light pink */
+    color: #ADD8E6; /* light blue */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
