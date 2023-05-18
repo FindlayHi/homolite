@@ -9,9 +9,7 @@ body {
     background-color: #8D918D;
     /* Use a sans-serif font */
     font-family: Arial, sans-serif;
-    /* Use light pink as the default text color */
-    
-} 
+}
 
 /* Add some padding around the whole page */
 .container {
@@ -20,24 +18,18 @@ body {
 
 /* Style headings */
 h1, h2, h3 {
-    /* Use light pink for heading text */
-   
     /* Add some space below headings */
     margin-bottom: 20px;
 }
 
 /* Style paragraphs */
 p {
-    /* Use light pink for paragraph text */
-  
     /* Add some space below paragraphs */
     margin-bottom: 20px;
 }
 
 /* Style links */
 a {
-    /* Use light pink for links */
-    
     /* Remove the default underline */
     text-decoration: none;
 }
@@ -53,18 +45,17 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-color: #Fff; 
-    height: 400px; /* adjust as needed */
+    height: 400px;
     width:auto;
 }
 
 #hero img {
-    max-width: 100%; /* to ensure the image doesn't overflow the div */
-    height: auto; /* maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
     background-color: #FF00FF; 
-    padding: 20px;
     width: 100%;
     text-align: center;
 }
@@ -94,6 +85,33 @@ footer {
     width: 45%; /* ensures there's some space between the hosts */
 }
 
+.host-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.episodes {
+    background-color: #4d4f53;
+    padding: 30px;
+    color: #fff;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 @media screen and (max-width: 768px) {
     /* On smaller screens, the host bios stack vertically */
     .hosts {
@@ -105,7 +123,3 @@ footer {
         margin-bottom: 20px;
     }
 }
-
-
-
-/* I hate you */
