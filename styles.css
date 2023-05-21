@@ -129,6 +129,40 @@ justify-content: space-around;
 
 }
 
+label {
+    font-weight: 700;
+}
+
+input {
+    margin-top: 3%;
+}
+
+.Contact {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+
+#mce-MMERGE5 {
+min-height: 200px;
+
+}
+.mc-field-group{
+    padding-bottom: 5%;
+}
+
+#mc_embed_signup {
+padding-bottom: 5%;
+
+}
+
+.mc_embed_signup_scroll {
+min-width: 400px;
+
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -180,4 +214,81 @@ justify-content: space-around;
     h1, h2, h3, h4 {
     font-size: 200%;
     }
+}
+.my-form {
+    display: grid;
+    grid-template-columns: (1 , 1fr);
+    align-items: end;    }
+.label-container {
+    margin-bottom: 1rem;
+}
+.label-text {
+    display: inline-block;
+    margin-bottom: 3px;
+    padding: .35rem;
+    background-color: #6079ff;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Montserrat', cursive;
+}
+input {
+    display: block;
+    min-height: 50px;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #4f4f4f;
+    border-radius: 0px;
+    box-shadow: rgba(10, 10, 10, .05) 0 1px 4px 0 inset;
+}
+.submit-btn {
+    padding: 14px 16px;
+    margin-bottom: 1rem;
+    min-height: 50px;
+    border-radius: 4px;
+    background-color: #f57afc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+@media screen and (min-width: 64rem) {
+    #mc_embed_signup_scroll {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+
+.submit-btn {
+    grid-column-start: 3;
+}
+
+.button {
+    display: inline-block;
+    padding: 30px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #FF00FF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 102.5%;
+}
+
+.Contact {
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #cc00cc;
+}
+
+input[type="text"]
+{
+    font-size:24px;
+    font-weight: 400;
 }
