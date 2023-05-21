@@ -54,10 +54,22 @@ a:hover {
     height: auto;
 }
 
+h2 {font-size: 40px;}
+
+.platforms a, h3 {font-size: 30px;}
+
+h4 {font-size: 25px;}
+
+
 footer {
     background-color: #FF00FF; 
+    color: #fff;
+    font-weight: bold;
     width: 100%;
     text-align: center;
+    font-size: 20px ;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .main-content {
@@ -86,8 +98,8 @@ footer {
 }
 
 .host-image {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -97,6 +109,24 @@ footer {
     background-color: #4d4f53;
     padding: 30px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.episodes a {
+color: #FF00FF;
+}
+
+.episodes h2, .episodes p {
+text-align: center;
+}
+
+.platforms {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
 }
 
 .fa {
@@ -114,12 +144,41 @@ footer {
 
 @media screen and (max-width: 768px) {
     /* On smaller screens, the host bios stack vertically */
-    .hosts {
+    .hosts, .platforms  {
         flex-direction: column;
     }
 
-    .host {
+    .host, .platforms a {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    h3, h4 {text-align: center;}
+
+    .platforms a {
+        text-align: center;
+        font-size: 35px ;
+    }
+
+    .host img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main-content, .episodes {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    body, p, a {
+        font-size: 125%;
+    }
+
+    h1, h2, h3, h4, {
+
+    font-size: 200%;
     }
 }
