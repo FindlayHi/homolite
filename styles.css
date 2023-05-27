@@ -5,8 +5,8 @@ body, h1, h2, h3, p, ul {
 }
 
 body {
-    /* Use light blue as the background color */
-    background-color: #8D918D;
+    /* Use light gray as the background color */
+    background-color: #f5f5f5;
     /* Use a sans-serif font */
     font-family: Arial, sans-serif;
 }
@@ -36,15 +36,15 @@ a {
 
 /* Change the link color on hover */
 a:hover {
-    /* Use a darker shade of pink for hover */
-    color: #FF00FF;
+    /* Use teal for hover */
+    color: #008080;
 }
 
 #hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0e0e0; 
+    background-color: #f5f5f5; 
     height: 400px;
     width:auto;
 }
@@ -54,16 +54,19 @@ a:hover {
     height: auto;
 }
 
+h1, h2, h3 {
+    color: #008080; /* Teal */
+}
+
 h2 {font-size: 40px;}
 
 .platforms a, h3 {font-size: 30px;}
 
 h4 {font-size: 25px;}
 
-
 footer {
-    background-color: #FF00FF; 
-    color: #fff;
+    background-color: #2f4f4f; /* Dark Gray */
+    color: #fff; /* White */
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -74,14 +77,14 @@ footer {
 
 .main-content {
     padding: 30px;
-    background-color: #8D918D; 
-    color: #fff; 
+    background-color: #f5f5f5; /* Light Gray */
+    color: #2f4f4f; /* Dark Gray */
     margin-bottom: 50px; /* Added bottom margin */
-
 }
 
 .main-content h2, .main-content h3 {
     margin-bottom: 15px;
+    color: #008080; /* Teal */
 }
 
 .main-content p {
@@ -108,29 +111,27 @@ footer {
 }
 
 .episodes {
-    background-color: #4d4f53;
+    background-color: #2f4f4f; /* Dark Gray */
     padding: 30px;
-    color: #fff;
+    color: #fff; /* White */
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 50px; /* Added top margin */
-
 }
 
 .episodes a {
-color: #FF00FF;
+    color: #008080; /* Teal */
 }
 
 .episodes h2, .episodes p {
-text-align: center;
+    text-align: center;
 }
 
 .platforms {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 label {
@@ -146,27 +147,23 @@ input {
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
-    
 }
 
-
 #mce-MMERGE5 {
-min-height: 200px;
-
+    min-height: 200px;
 }
 .mc-field-group{
     padding-bottom: 5%;
 }
 
 #mc_embed_signup {
-padding-bottom: 5%;
-
+    padding-bottom: 5%;
 }
 
 .mc_embed_signup_scroll {
-min-width: 400px;
-
+    min-width: 400px;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -174,6 +171,7 @@ min-width: 400px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    color: #008080; /* Teal */
 }
 
 .fa:hover {
@@ -216,7 +214,7 @@ min-width: 400px;
     }
 
     h1, h2, h3, h4 {
-    font-size: 200%;
+        font-size: 200%;
     }
 }
 .my-form {
@@ -224,7 +222,8 @@ min-width: 400px;
     grid-template-columns: (1 , 1fr);
     align-items: end;  
     max-width: 800px; /* This will be the maximum width of your form */
-    margin: auto; /* Centers the form horizontally */  }
+    margin: auto; /* Centers the form horizontally */
+}
 .label-container {
     margin-bottom: 1rem;
 }
@@ -253,7 +252,7 @@ input {
     margin-bottom: 1rem;
     min-height: 50px;
     border-radius: 4px;
-    background-color: #f57afc;
+    background-color: #008080; /* Teal */
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
@@ -276,7 +275,7 @@ input {
     padding: 30px 20px;
     font-size: 1.5em;
     color: #fff;
-    background-color: #FF00FF;
+    background-color: #008080; /* Teal */
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -286,11 +285,11 @@ input {
 }
 
 .Contact {
-    color: #fff;
+    color: #2f4f4f; /* Dark Gray */
 }
 
 .button:hover {
-    background-color: #cc00cc;
+    background-color: #006666; /* Dark Teal */
 }
 
 input[type="text"]
