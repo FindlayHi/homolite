@@ -54,7 +54,7 @@ a:hover {
     height: auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #008080; /* Teal */
 }
 
@@ -146,8 +146,8 @@ input {
 .Contact {
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #mce-MMERGE5 {
