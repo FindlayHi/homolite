@@ -44,7 +44,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #Fff; 
+    background-color: #e0e0e0; 
     height: 400px;
     width:auto;
 }
@@ -218,7 +218,9 @@ min-width: 400px;
 .my-form {
     display: grid;
     grid-template-columns: (1 , 1fr);
-    align-items: end;    }
+    align-items: end;  
+    max-width: 800px; /* This will be the maximum width of your form */
+    margin: auto; /* Centers the form horizontally */  }
 .label-container {
     margin-bottom: 1rem;
 }
