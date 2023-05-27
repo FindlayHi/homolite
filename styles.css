@@ -113,7 +113,7 @@ footer {
 .episodes {
     background-color: #2f4f4f; /* Dark Gray */
     padding: 30px;
-    color: #fff; /* White */
+    color: #fff!important; /* White */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,11 +121,12 @@ footer {
 }
 
 .episodes a {
-    color: #008080; /* Teal */
+    color: #fff!important; /* White */
 }
 
 .episodes h2, .episodes p {
     text-align: center;
+    color: #fff!important;; /* White */
 }
 
 .platforms {
